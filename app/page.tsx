@@ -57,7 +57,9 @@ export default function Home() {
         </div>
 
         {sent && (
-          <p className="text-green-600 text-sm">Link sudah dikirim ke email</p>
+          <p className="text-green-600 text-sm">
+            Link sudah dikirim ke email anda
+          </p>
         )}
       </div>
     </main>
